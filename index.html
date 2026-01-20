@@ -28,9 +28,17 @@
         <div class="content">
           <header>
             <h1>Olá, seja muito bem-vindo(a) ao meu portfólio de projetos de Ciência de Dados.</h1>
-            <p>Apresento aqui minhas habilidades em resolver problemas de negócio com dados.</p>
+            <p>
+              Nessa página, eu demonstro minhas habilidades de resolver problemas de negócio
+              utilizando conceitos e ferramentas da Ciência de Dados, através de projetos com dados
+              públicos.
+            </p>
           </header>
-          <p>Sinta-se à vontade para entrar em contato através dos links no final da página.</p>
+          <p>
+            Você vai encontrar também, minhas experiências profissionais, habilidades,
+            ferramentas e conceitos envolvendo a Ciência de Dados.
+            Sinta-se à vontade para entrar em contato através dos links no final da página.
+          </p>
         </div>
         <span class="image object">
           <img src="images/profile_picture.jfif" alt="" />
@@ -42,9 +50,22 @@
         <header class="main">
           <h1>Sobre mim</h1>
         </header>
-        <h2>Meu nome é Felipe Laurentino da Silva</h2>
-        <p>Sou formado em Administração de Empresas e Banco de Dados e atuo na área comercial.</p>
-        <p>Busco uma oportunidade como Cientista de Dados.</p>
+
+        <h2 id="content">Meu nome é Felipe Laurentino da Silva</h2>
+
+        <p>
+          Sou formado em Administração de Empresas e Banco de Dados e trabalho como vendedor em uma empresa de equipamentos de medição.
+        </p>
+
+        <p>
+          Atualmente atuo na área comercial, com foco em vendas e no suporte ao acompanhamento do funcionamento do site da empresa e vendas diretas por cotação.
+          Analiso documentos enviados pelos clientes, identificando problemas e propondo soluções que garantam uma boa experiência em todo o processo — do primeiro contato ao pós-venda.
+        </p>
+
+        <p>
+          Estou buscando uma oportunidade para atuar profissionalmente como Cientista de Dados,
+          contribuindo para a melhoria da tomada de decisão da empresa por meio da construção de soluções baseadas em dados.
+        </p>
       </section>
 
       <!-- Habilidades -->
@@ -52,25 +73,58 @@
         <header class="major">
           <h2>Habilidades</h2>
         </header>
+
         <div class="features">
           <article>
             <span class="icon fa-gem"></span>
             <div class="content">
-              <h3>Linguagens</h3>
+              <h3>Linguagens de Programação</h3>
               <ul>
-                <li>SQL</li>
-                <li>SQLite</li>
-                <li>Python</li>
+                <li>SQL Language</li>
+                <li>SQLite 3 Database</li>
+                <li>Python com foco em análise de dados</li>
+                <li>Pensamento Estratégico</li>
+                <li>Conceitos de ETL</li>
               </ul>
             </div>
           </article>
+
           <article>
             <span class="icon solid fa-paper-plane"></span>
             <div class="content">
-              <h3>Machine Learning</h3>
+              <h3>Estatística e Machine Learning</h3>
               <ul>
-                <li>Regressão, Classificação e Clusterização</li>
-                <li>Métricas: RMSE, MAE, ROC</li>
+                <li>Algoritmos de Regressão, Classificação, Clusterização e Learn to Rank</li>
+                <li>
+                  Métricas de performance (RMSE, MAE, MAPE, Confusion Matrix, Precisão, Recall, Curva ROC,
+                  Curva Lift, Silhouette Score)
+                </li>
+                <li>
+                  Pacotes: KNN, Random Forest, Regressão Logística e Linear, XGBoost, Lasso
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article>
+            <span class="icon solid fa-rocket"></span>
+            <div class="content">
+              <h3>Visualização de Dados</h3>
+              <ul>
+                <li>Matplotlib e Seaborn</li>
+                <li>Power BI</li>
+                <li>Streamlit</li>
+              </ul>
+            </div>
+          </article>
+
+          <article>
+            <span class="icon solid fa-signal"></span>
+            <div class="content">
+              <h3>Engenharia de Software</h3>
+              <ul>
+                <li>GitHub e GitLab</li>
+                <li>Streamlit Cloud</li>
               </ul>
             </div>
           </article>
@@ -85,39 +139,134 @@
 
         <div class="posts">
 
+          <!-- Projeto 1 -->
           <article>
             <a href="#" class="image"><img src="images/imagem4.jpg" alt="" /></a>
             <h3>Health Insurance Ranking</h3>
-            <p>Sistema de ranqueamento de clientes.</p>
+
+            <p>
+              Desenvolvimento de um sistema de ranqueamento de clientes para seguro de saúde utilizando algoritmos de Machine Learning.
+              Estruturei o projeto desde a etapa de obtenção dos dados até a construção e avaliação dos modelos,
+              com foco em métricas orientadas ao negócio e aplicação real em campanhas de marketing segmentado.
+            </p>
+
+            <p>
+              Métricas avançadas: Precision@K, Recall@K e Cumulative Gain.
+            </p>
+
+            <h4>As ferramentas utilizadas foram:</h4>
+            <ul>
+              <li>Python</li>
+              <li>Jupyter Notebook</li>
+              <li>Machine Learning</li>
+              <li>GitHub</li>
+            </ul>
+
             <ul class="actions">
-              <li><a href="https://github.com/Felipe23430/Health-Insurance-Ranking" class="button">More</a></li>
+              <li>
+                <a href="https://github.com/Felipe23430/Health-Insurance-Ranking" class="button">More</a>
+              </li>
             </ul>
           </article>
 
+          <!-- Projeto 2 -->
           <article>
             <a href="#" class="image"><img src="images/imagem3.jpg" alt="" /></a>
-            <h3>Previsão de Vendas</h3>
-            <p>Modelo preditivo de vendas.</p>
+            <h3>Projeto de Previsão de Vendas</h3>
+
+            <p>
+              Desenvolvimento de um modelo preditivo de Machine Learning para prever as vendas diárias.
+              Segui a metodologia CRISP-DS para garantir um ciclo de desenvolvimento estruturado e reprodutível.
+              Realizei análise exploratória de dados (EDA) e validação de hipóteses de negócio, identificando insights como
+              a saturação de promoções de longo prazo e o impacto negativo de um sortimento muito amplo.
+              Executei todo o pipeline de dados: engenharia de features, tratamento de dados, encoding e
+              seleção de features com o algoritmo Boruta.
+            </p>
+
+            <p>
+              Resultado de Negócio: O modelo fornece previsões confiáveis que permitem uma alocação de recursos
+              mais eficiente e um planejamento estratégico mais assertivo.
+            </p>
+
+            <h4>As ferramentas utilizadas foram:</h4>
+            <ul>
+              <li>Python</li>
+              <li>Jupyter Notebook</li>
+              <li>Machine Learning</li>
+              <li>GitHub</li>
+            </ul>
+
             <ul class="actions">
-              <li><a href="https://github.com/Felipe23430/analise-dados-rossmann" class="button">More</a></li>
+              <li>
+                <a href="https://github.com/Felipe23430/analise-dados-rossmann" class="button">More</a>
+              </li>
             </ul>
           </article>
 
+          <!-- Projeto 3 -->
           <article>
             <a href="#" class="image"><img src="images/imagem2.jpg" alt="" /></a>
-            <h3>Painel com Streamlit</h3>
-            <p>Painel gerencial interativo.</p>
+            <h3>Painel Gerencial com Streamlit</h3>
+
+            <p>
+              Nesse projeto, os conceitos de Programação em Python, manipulação de dados,
+              pensamento estratégico e lógica de negócio, junto com ferramentas de desenvolvimento web
+              como o Streamlit e GitHub, foram usados para desenvolver um painel gerencial com as principais
+              métricas de uma empresa marketplace de delivery de comida na Índia.
+            </p>
+
+            <p>
+              O resultado final do projeto foi um painel hospedado em um ambiente Cloud e disponibilizado
+              através de um link web. O painel pode ser acessado por qualquer dispositivo conectado à internet.
+            </p>
+
+            <h4>As ferramentas utilizadas foram:</h4>
+            <ul>
+              <li>Python</li>
+              <li>Jupyter Lab</li>
+              <li>Terminal</li>
+              <li>Streamlit</li>
+              <li>Streamlit Cloud</li>
+              <li>GitHub</li>
+            </ul>
+
             <ul class="actions">
-              <li><a href="https://github.com/Felipe23430/Projeto-Curry_Company" class="button">More</a></li>
+              <li>
+                <a href="https://github.com/Felipe23430/Projeto-Curry_Company" class="button">More</a>
+              </li>
             </ul>
           </article>
 
+          <!-- Projeto 4 -->
           <article>
             <a href="#" class="image"><img src="images/imagem1.jpg" alt="" /></a>
             <h3>Ensaio de Machine Learning</h3>
-            <p>Comparação de algoritmos.</p>
+
+            <p>
+              Nesse projeto, foram explorados os principais conceitos do treinamento, ajuste de parâmetros
+              e limiares entre overfitting e underfitting de vários algoritmos de Machine Learning dentro das
+              tarefas de classificação, regressão e agrupamento, através de um ensaio de Machine Learning.
+            </p>
+
+            <p>
+              O resultado final do projeto foi um painel mostrando a performance desses algoritmos de
+              Machine Learning, a partir da variação dos valores dos principais parâmetros de cada algoritmo,
+              que controlam o estado de overfitting e underfitting.
+            </p>
+
+            <h4>As ferramentas utilizadas foram:</h4>
+            <ul>
+              <li>Python 3.10 e Scikit-learn</li>
+              <li>Algoritmos de classificação: KNN, Decision Tree, Random Forest e Logistic Regression</li>
+              <li>Métricas: Accuracy, Precision, Recall, F1-Score, R², MSE, RMSE, MAE, MAPE, Silhouette Score</li>
+              <li>Algoritmos de regressão: Linear, Decision Tree, Random Forest, Lasso, Ridge, Elastic Net</li>
+              <li>Algoritmos de agrupamento: K-Means e Affinity Propagation</li>
+            </ul>
+
             <ul class="actions">
-              <li><a href="https://github.com/Felipe23430/ensaio_machine_learning" class="button">More</a></li>
+              <li>
+                <a href="https://github.com/Felipe23430/ensaio_machine_learning" class="button">More</a>
+              </li>
             </ul>
           </article>
 
@@ -129,12 +278,22 @@
         <header class="main">
           <h1>Contato</h1>
         </header>
-        <ul class="contact">
-          <li class="icon solid fa-envelope">felipe.laurentino2@outlook.com</li>
-          <li class="icon brands fa-linkedin">
-            <a href="https://www.linkedin.com/in/felipe-laurentino-silva-a6a15b11a/">LinkedIn</a>
-          </li>
-        </ul>
+
+        <section>
+          <header class="major">
+            <h2>Entre em contato</h2>
+          </header>
+
+          <p>Sinta-se à vontade para entrar em contato:</p>
+          <ul class="contact">
+            <li class="icon solid fa-envelope">
+              <a href="mailto:felipe.laurentino2@outlook.com">felipe.laurentino2@outlook.com</a>
+            </li>
+            <li class="icon brands fa-linkedin">
+              <a href="https://www.linkedin.com/in/felipe-laurentino-silva-a6a15b11a/">LinkedIn</a>
+            </li>
+          </ul>
+        </section>
       </section>
 
     </div>
